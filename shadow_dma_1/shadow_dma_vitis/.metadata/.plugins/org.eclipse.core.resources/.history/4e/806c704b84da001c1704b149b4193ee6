@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="shadow_dma_app" location="D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shadow_dma_app" platform="D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shawdo_dma_platform/export/shawdo_dma_platform/shawdo_dma_platform.xpfm" platformUID="xilinx:zc702::0.0(custom)" systemProject="shadow_dma_app_system" sysConfig="shawdo_dma_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="871755928b1633a565f96f07b3186866">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.460515390">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1739773313" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

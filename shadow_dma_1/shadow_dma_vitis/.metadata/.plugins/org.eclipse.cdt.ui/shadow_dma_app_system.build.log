@@ -1,0 +1,10 @@
+15:51:15 **** Build of configuration Debug for project shadow_dma_app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 65318 D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shawdo_dma_platform/export/shawdo_dma_platform/shawdo_dma_platform.xpfm standalone_domain D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shadow_dma_app_system/Debug/system.bif
+sdcard_gen --xpfm D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shawdo_dma_platform/export/shawdo_dma_platform/shawdo_dma_platform.xpfm --sys_config shawdo_dma_platform --bif D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shadow_dma_app_system/Debug/system.bif --bitstream D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shadow_dma_app/_ide/bitstream/design_1_wrapper.bit --elf D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shadow_dma_app/Debug/shadow_dma_app.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shadow_dma_app/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2021.2/bin/bootgen  -image D:/shadow_project_dma/shadow_dma_1/shadow_dma_vitis/shadow_dma_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+15:52:01 Build Finished (took 45s.102ms)
+
